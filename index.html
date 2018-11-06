@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,10 +36,11 @@
     <h2 id="textoutput" class="center">Show results here</h2>
   </div>
   <script type="text/javascript">
+    //declare button
     var button = document.getElementById("entrybutton");
-	
+	//event listener
     button.addEventListener('click', alertme);
-	
+	//function designed to input message and display output.
     function alertme(){
     var input = document.getElementById("entryinput").value;
     alert("George Lonngren: " + input);
